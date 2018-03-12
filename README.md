@@ -18,13 +18,15 @@ We publish the source code of the paper [Deletion-based sentence compression usi
 We built a web-based application and API from this model at [our own server](https://s242-097.jaist.ac.jp/sum/en/) for English and Vietnamese. Please feel free to use for non-commercial purpose.
 
 ## Dependencies 
-Tensorflow=0.12.1
+Python = 3.5
 
-NLTK=3.2.5
+Tensorflow = 0.12.1
 
-Gensim=3.4.0
+NLTK = 3.2.5
 
-Stanford Postagger 3.6
+Gensim = 3.4.0
+
+Stanford Postagger = 3.6
 
 ## Installation
 
@@ -33,7 +35,7 @@ Clone the repository
 git clone git@github.com:nguyenlab/SentSum.git
 ```
 
-Install the dependencies for python 2 instance
+Install the dependencies
 ```
 chmod +x install_dep.sh
 ./install_dep.sh
