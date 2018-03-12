@@ -1,7 +1,20 @@
 # Sentence summarization system with Bi-encoder-decoder LSTM model
 
-We publish the source code of the paper [Deletion-based sentence compression using Bi-enc-dec LSTM](https://www.researchgate.net/publication/319186302_Deletion-based_sentence_compression_using_Bi-enc-dec_LSTM). If you find any trouble, please raise an issue or contact us at ``vietld@jaist.ac.jp`` (main developer) or ``nguyenml@jaist.ac.jp``.
+We publish the source code of the paper [Deletion-based sentence compression using Bi-enc-dec LSTM](https://www.researchgate.net/publication/319186302_Deletion-based_sentence_compression_using_Bi-enc-dec_LSTM). 
 
+```
+@inproceedings{lai-dacviet:2017:PACLING,
+  author    = {Dac{-}Viet Lai and
+               Nguyen Truong Son and
+               Nguyen Le Minh},
+  title     = {Deletion-Based Sentence Compression Using Bi-enc-dec {LSTM}},
+  booktitle = {Computational Linguistics - 15th International Conference of the Pacific
+               Association for Computational Linguistics, {PACLING} 2017, Yangon,
+               Myanmar, August 16-18, 2017, Revised Selected Papers},
+  pages     = {249--260},
+  year      = {2017}
+}
+```
 We built a web-based application and API from this model at [our own server](https://s242-097.jaist.ac.jp/sum/en/) for English and Vietnamese. Please feel free to use for non-commercial purpose.
 
 ## Dependencies 
@@ -38,3 +51,7 @@ If you want to use your own data, please convert yours into CoNLL format and con
 ```
 python run.py -train -i run1 
 ```
+
+
+If you find any trouble, please raise an issue or contact us at ``vietld@jaist.ac.jp`` (main developer) or ``nguyenml@jaist.ac.jp``.
+
