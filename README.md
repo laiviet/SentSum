@@ -1,13 +1,12 @@
 # Sentence summarization system with Bi-encoder-decoder LSTM model
 
-We publish the source code of the paper [Deletion-based sentence compression using Bi-enc-dec LSTM](https://www.researchgate.net/publication/319186302_Deletion-based_sentence_compression_using_Bi-enc-dec_LSTM)
+We publish the source code of the paper [Deletion-based sentence compression using Bi-enc-dec LSTM](https://www.researchgate.net/publication/319186302_Deletion-based_sentence_compression_using_Bi-enc-dec_LSTM). If you find any trouble, please raise an issue or contact us at vietld@jaist.ac.jp (main developer) or nguyenml@jaist.ac.jp.
  
- This is a webserver of the sentence summarization system for English and Vietnamese with two model: Bi-Enc-Dec and Bi-LSTM-CRF.
- If you find any trouble, please raise an issue or contact us at vietld@jaist.ac.jp.
+ We built a web-based application and API from this model at [our own server](https://s242-097.jaist.ac.jp/sum/en/) for English and Vietnamese.
  
- ## Dependencies
- python=2.7 and python 3.5 (This project contains a webserver written in Python3 and a backend written in python2)
  
+ 
+ ## Dependencies 
  Tensorflow=0.12.1
  
  NLTK=3.2.5
