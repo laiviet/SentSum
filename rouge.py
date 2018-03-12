@@ -122,7 +122,7 @@ parser.add_argument('-i', '--input', help='System output')
 arg = parser.parse_args()
 
 if arg.all:
-    dataset = CompressionData.mikolov_conll
+    dataset = CompressionData.fillipova_conll
     print('Dataset: %s' % (dataset['name']))
     test_data = utils.load_conll_data_as_dict(dataset['test'])
     to_file(arg.input, test_data)
