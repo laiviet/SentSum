@@ -3,7 +3,7 @@
 We publish the source code of the paper [Deletion-based sentence compression using Bi-enc-dec LSTM](https://www.researchgate.net/publication/319186302_Deletion-based_sentence_compression_using_Bi-enc-dec_LSTM). 
 
 ```
-@inproceedings{lai-dacviet:2017:PACLING,
+@inproceedings{viet:2017:PACLING,
   author    = {Dac{-}Viet Lai and
                Nguyen Truong Son and
                Nguyen Le Minh},
