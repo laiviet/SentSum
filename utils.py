@@ -68,7 +68,7 @@ def update_epoch(epoch, sample, ex_id, test=False):
 
 def load_word2vec():
     #path = 'data/onebill256.bin'
-    path = 'data/onebill100.bin'
+    path = 'data/GoogleNews-vectors-negative300-SLIM.bin'
     model = gensim.models.KeyedVectors.load_word2vec_format(path, binary=True)
     #print('Word embedding model was loaded: ', path)
     return model
