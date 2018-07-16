@@ -1,3 +1,4 @@
+from __future__ import print_function
 # -*- coding: utf-8 -*-
 #
 #
@@ -131,7 +132,7 @@ def test(ex_id, start_epoch, valid=False):
         initializer = tf.random_uniform_initializer(-0.1, 0.1)
         with tf.variable_scope("RNN", reuse=False, initializer=initializer):
             print('Building model..')
-            i_test = Model(is_training=False, FLAGS=FLAGS)
+            i_test = BiEncoderDecoderModel(is_training=False, FLAGS=FLAGS)
             for epoch in range(start_epoch, 150):
                 epoch_output_path = os.path.join(ex_id, str(epoch))
                 print('Restoring model: %d...' % (epoch))

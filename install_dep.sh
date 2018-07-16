@@ -15,3 +15,11 @@ wget https://nlp.stanford.edu/software/stanford-postagger-full-2015-12-09.zip
 unzip stanford-postagger-full-2015-12-09.zip
 
 
+# Download word2vec (slim version)
+cd data
+wget https://media.githubusercontent.com/media/eyaler/word2vec-slim/master/GoogleNews-vectors-negative300-SLIM.bin.gz
+echo "Extracting GoogleNews-vectors-negative300-SLIM.bin.gz"
+gunzip GoogleNews-vectors-negative300-SLIM.bin.gz
+cd ../
+
+
